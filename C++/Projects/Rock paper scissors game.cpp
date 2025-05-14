@@ -2,7 +2,7 @@
 #include <ctime>
 char getUserChoice();
 char getComputerChoice();
-void showChoice();
+void showChoice( char computer);
 void choosWinner(char player , char computer);
 
 int main(){
@@ -31,7 +31,7 @@ char getUserChoice(){
     std::cout << "Rock-Paper-Scissors GAme!\n" ;
     do{
 
-    std::cout << "choose one of the following";
+    std::cout << "choose one of the following\n";
     std::cout << "**************************\n" ;
 
     std::cout << "'r' for rock\n";
